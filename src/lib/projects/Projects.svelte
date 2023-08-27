@@ -24,7 +24,7 @@
          >Visit <Fa icon={faExternalLink} size="1x" /></a
       >
       <a class="visit" href="https://zkr.pw/bot" target="_blank"
-         >Invite Bot<Fa icon={faExternalLink} size="1x" /></a
+         >Invite Bot <Fa icon={faExternalLink} size="1x" /></a
       >
    </div>
    <div class="circle-astatine" />
@@ -46,7 +46,7 @@
          </div>
       </div>
       <a class="visit" href="#projects"
-         >Invite Bot<Fa icon={faExternalLink} size="1x" /></a
+         >Invite Bot <Fa icon={faExternalLink} size="1x" /></a
       >
    </div>
    <div class="circle-textbin" />
