@@ -12,19 +12,19 @@
             <h1>ShortZKR</h1>
             <p>
                ShortZKR is a simple URL shortener. Created by me and ZKR team.
-               It is also support custom alias. Go try it >:D
+               It is also support custom alias and have an official Discord Bot.
+               Go try it >:D
             </p>
          </div>
          <div class="icon">
-            <img
-               class="image"
-               src="https://cdn.zkr.pw/pictures/webicon.jpg"
-               alt="zkr icon"
-            />
+            <img class="image" src="./webicon.webp" alt="zkr icon" />
          </div>
       </div>
       <a class="visit" href="https://zkr.pw" target="_blank"
          >Visit <Fa icon={faExternalLink} size="1x" /></a
+      >
+      <a class="visit" href="https://zkr.pw/bot" target="_blank"
+         >Invite Bot<Fa icon={faExternalLink} size="1x" /></a
       >
    </div>
    <div class="circle-astatine" />
@@ -33,7 +33,7 @@
          <div class="info">
             <h1>Astatine</h1>
             <p>
-               An utility Discord Bot, built using <a
+               A utility Discord Bot, created using <a
                   class="eris"
                   href="https://github.com/abalabahaha/eris"
                   target="_blank">Eris</a
@@ -42,11 +42,30 @@
             </p>
          </div>
          <div class="icon">
-            <img class="image" src="./astatine-logo.png" alt="astatine logo" />
+            <img class="image" src="./astatine-logo.webp" alt="astatine logo" />
          </div>
       </div>
       <a class="visit" href="#projects"
-         >Invite <Fa icon={faExternalLink} size="1x" /></a
+         >Invite Bot<Fa icon={faExternalLink} size="1x" /></a
+      >
+   </div>
+   <div class="circle-textbin" />
+   <div class="content textbin">
+      <div class="project-info">
+         <div class="info">
+            <h1>TextBin</h1>
+            <p>
+               Text paste service like PasteBin but with many language syntax
+               support and VSCode like text editor. Created using Next.js and
+               tailwindcss
+            </p>
+         </div>
+         <div class="icon">
+            <img class="image" src="./textbin.webp" alt="zkr icon" />
+         </div>
+      </div>
+      <a class="visit" href="https://textbin.link" target="_blank"
+         >Visit <Fa icon={faExternalLink} size="1x" /></a
       >
    </div>
 </div>

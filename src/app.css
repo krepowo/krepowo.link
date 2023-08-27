@@ -65,6 +65,10 @@
   color: #333;
   transform: scale(1.1);
 }
+.social .youtube:hover {
+  color: red;
+  transform: scale(1.1);
+}
 
 
 .nav {
@@ -185,6 +189,18 @@
   margin-left: auto;
   top: 2.5rem;
   left: 1rem;
+  animation: move-up6 2s ease-in infinite alternate-reverse;
+}
+.projects .circle-textbin {
+  width: 50px;
+  height: 50px;
+  background: cyan;
+  border-radius: 50%;
+  margin-top: -2rem;
+  justify-items: center;
+  position: relative;
+  top: 2.5rem;
+  left: -0.5rem;
   animation: move-up6 2s ease-in infinite alternate-reverse;
 }
 .projects .zkr-icon {
