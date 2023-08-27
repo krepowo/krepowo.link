@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
+
+:root {
+  font-family: 'Ubuntu', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  background-color: #1b1e27; 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+  margin: 0;
+  padding: 0;
+
+  scroll-behavior: smooth;
+}
+
+#home {
+  height: 100vh;
+  padding: 1rem
+}
+#projects {
+  height: 100vh;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.social {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  padding-top: 1vh;
+}
+.social a {
+  padding: 10px;
+  color: #3b5fe2;
+  align-self: center;
+  transition: 0.5s;
+}
+.social .discord:hover {
+  color:#7289da;
+  transform: scale(1.1);
+}
+.social .instagram:hover {
+  color: #e4405f;
+  transform: scale(1.1);
+}
+.social .twitter:hover {
+  color: #1da1f2;
+  transform: scale(1.1);
+}
+.social .github:hover {
+  color: #333;
+  transform: scale(1.1);
+}
+
+
+.nav {
+  display: flex;
+  flex-direction: row;;
+}
+.nav a {
+  margin-left: 1rem;
+  color: white;
+  text-decoration: none;
+}
+
+
+.center {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white
+}
+.center span{
+  text-decoration: underline;
+}
+
+
+.scroll {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  padding-bottom: 2vh;
+  bottom: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  animation: atasbawah 3s linear infinite;
+}
+.scroll a {
+  color: white;
+  text-decoration: none;
+  font-size: large;
+}
+
+
+.line {
+  width: 100%;
+  height: 1px;
+  background-color: white;
+}
+
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  padding: 3vh
+}
+.projects .project-info {
+  display: flex;
+  justify-content: space-between;
+}
+.projects .project-info .info{
+  display: flex;
+  flex-direction: column;
+  max-width: 90%;
+}
+.projects .project-info .image {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+}
+.projects .content .visit {
+  background-color: #2f48a2;
+  color: white;
+  padding: 0.5rem;
+  border-radius: 10px;
+}
+.projects .content .eris {
+  text-decoration: underline;
+  color: white;
+}
+.projects .heading {
+  text-align: center;
+  color: white;
+}
+.projects .content {
+  background: rgba(255,255,255,.05);
+  box-shadow: 0 0 10px rgba(0,0,0,0.25);
+  backdrop-filter: blur(10px);
+  padding: 2vh;
+  border-radius: 10px;
+  margin: 1vh;
+  color: white;
+  line-height: 2vh;
+}
+.projects .zkr {
+  margin-bottom: 4vh;
+}
+.projects .circle-zkr {
+  width: 50px;
+  height: 50px;
+  background: cyan;
+  border-radius: 50%;
+  margin-top: -4rem;
+  justify-items: center;
+  position: relative;
+  top: 2.5rem;
+  left: -0.5rem;
+  animation: move-up6 2s ease-in infinite alternate-reverse;
+}
+.projects .circle-astatine {
+  width: 50px;
+  height: 50px;
+  background: white;
+  border-radius: 50%;
+  margin-top: -4rem;
+  justify-items: center;
+  position: relative;
+  margin-left: auto;
+  top: 2.5rem;
+  left: 1rem;
+  animation: move-up6 2s ease-in infinite alternate-reverse;
+}
+.projects .zkr-icon {
+  display: flex;
+  height: 4rem;
+  width: 4rem;
+  position: relative;
+  justify-items: center;
+  margin-top: -4rem;
+  border-radius: 40px;
+  top: 2rem;
+  left: 1rem;
+}
+.projects .astatine-icon {
+  display: flex;
+  width: 10rem;
+  position: relative;
+  justify-items: center;
+  margin-top: -2rem;
+  border-radius: 40px;
+  top: 2rem;
+  left: 1rem;
+}
+.projects .content h1 {
+  margin: 0;
+}
+
+/* responsive */
+@media (max-width: 500px) {
+  .social a{
+    width: 1px;
+  }
+}
+
+/* scrollbar */
+::-webkit-scrollbar {
+  width: 5px
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #3b5fe2;
+  border-radius: 10px;
+}
+
+/* anim */
+@keyframes move-up6 {
+  to {
+    transform: translateY(-10px);
+  }
+}
+@keyframes atasbawah {
+  0%, 100% {
+    bottom: 0;
+  }
+  50% {
+    bottom: 20px;
+  }
+}
