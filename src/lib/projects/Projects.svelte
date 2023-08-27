@@ -37,7 +37,7 @@
                   class="eris"
                   href="https://github.com/abalabahaha/eris"
                   target="_blank">Eris</a
-               > library. Have many cool features and commands. This bot is now abondoned
+               > library. Have many cool features and commands. This bot is now abandoned
                but still online and usable 👍
             </p>
          </div>
