@@ -143,6 +143,7 @@
   background-color: #2f48a2;
   color: white;
   padding: 0.5rem;
+  margin-left: 0.5rem;
   border-radius: 10px;
 }
 .projects .content .eris {
@@ -163,7 +164,7 @@
   color: white;
   line-height: 2.5vh;
 }
-.projects .circle-zkr {
+.projects .circle-shortzkr {
   width: 50px;
   height: 50px;
   background: cyan;
@@ -225,6 +226,27 @@
   margin: 0;
 }
 
+
+.footer {
+  padding: 3vh;
+}
+.footer p {
+  line-height: 1vh;
+  color: white;
+  text-align: center;
+  margin: 0.5vh;
+}
+.footer .credit {
+  line-height: 2.3vh;
+}
+.footer img {
+  width: 1.5rem;
+  height: 1.5rem;
+  position: relative;
+  top: 0.5rem;
+}
+
+
 /* responsive */
 @media (max-width: 500px) {
   .social a{
@@ -239,7 +261,10 @@
     margin: 1vh;
     color: white;
     line-height: 3vh;
-}
+  }
+  #projects {
+    height: auto
+  }
 }
 
 /* scrollbar */
