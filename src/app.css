@@ -5,7 +5,7 @@
   line-height: 1.5;
   font-weight: 400;
 
-  background-color: #1b1e27; 
+  background-color: #1b1e27;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -23,10 +23,13 @@
   scroll-behavior: smooth;
 }
 
+
+
 #home {
   height: 100vh;
   padding: 1rem
 }
+
 #projects {
   height: 100vh;
 }
@@ -37,49 +40,63 @@
 }
 
 
+
 .social {
   display: flex;
   flex-direction: column;
   width: fit-content;
   padding-top: 1vh;
 }
+
 .social a {
   padding: 10px;
   color: #3b5fe2;
   align-self: center;
   transition: 0.5s;
 }
+
 .social .discord:hover {
-  color:#7289da;
+  color: #7289da;
   transform: scale(1.1);
 }
+
 .social .instagram:hover {
   color: #e4405f;
   transform: scale(1.1);
 }
+
 .social .twitter:hover {
   color: #1da1f2;
   transform: scale(1.1);
 }
+
 .social .github:hover {
   color: #333;
   transform: scale(1.1);
 }
+
 .social .youtube:hover {
   color: red;
+  transform: scale(1.1);
+}
+
+.social .email:hover {
+  color: white;
   transform: scale(1.1);
 }
 
 
 .nav {
   display: flex;
-  flex-direction: row;;
+  flex-direction: row;
 }
+
 .nav a {
   margin-left: 1rem;
   color: white;
   text-decoration: none;
 }
+
 
 
 .center {
@@ -90,9 +107,11 @@
   transform: translate(-50%, -50%);
   color: white
 }
-.center span{
+
+.center span {
   text-decoration: underline;
 }
+
 
 
 .scroll {
@@ -106,11 +125,13 @@
   color: white;
   animation: atasbawah 3s linear infinite;
 }
+
 .scroll a {
   color: white;
   text-decoration: none;
   font-size: large;
 }
+
 
 
 .line {
@@ -125,20 +146,24 @@
   flex-direction: column;
   padding: 3vh
 }
+
 .projects .project-info {
   display: flex;
   justify-content: space-between;
 }
-.projects .project-info .info{
+
+.projects .project-info .info {
   display: flex;
   flex-direction: column;
   max-width: 90%;
 }
+
 .projects .project-info .image {
   width: 5rem;
   height: 5rem;
   border-radius: 50%;
 }
+
 .projects .content .visit {
   background-color: #2f48a2;
   color: white;
@@ -146,17 +171,20 @@
   margin-left: 0.5rem;
   border-radius: 10px;
 }
+
 .projects .content .eris {
   text-decoration: underline;
   color: white;
 }
+
 .projects .heading {
   text-align: center;
   color: white;
 }
+
 .projects .content {
-  background: rgba(255,255,255,.05);
-  box-shadow: 0 0 10px rgba(0,0,0,0.25);
+  background: rgba(255, 255, 255, .05);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
   backdrop-filter: blur(10px);
   padding: 2vh;
   border-radius: 10px;
@@ -164,6 +192,7 @@
   color: white;
   line-height: 2.5vh;
 }
+
 .projects .circle-shortzkr {
   width: 50px;
   height: 50px;
@@ -176,6 +205,7 @@
   left: -0.5rem;
   animation: move-up6 2s ease-in infinite alternate-reverse;
 }
+
 .projects .circle-astatine {
   width: 50px;
   height: 50px;
@@ -189,6 +219,7 @@
   left: 1rem;
   animation: move-up6 2s ease-in infinite alternate-reverse;
 }
+
 .projects .circle-textbin {
   width: 50px;
   height: 50px;
@@ -201,6 +232,7 @@
   left: -0.5rem;
   animation: move-up6 2s ease-in infinite alternate-reverse;
 }
+
 .projects .zkr-icon {
   display: flex;
   height: 4rem;
@@ -212,6 +244,7 @@
   top: 2rem;
   left: 1rem;
 }
+
 .projects .astatine-icon {
   display: flex;
   width: 10rem;
@@ -222,23 +255,28 @@
   top: 2rem;
   left: 1rem;
 }
+
 .projects .content h1 {
   margin: 0;
 }
 
 
+
 .footer {
   padding: 3vh;
 }
+
 .footer p {
   line-height: 1vh;
   color: white;
   text-align: center;
   margin: 0.5vh;
 }
+
 .footer .credit {
   line-height: 2.3vh;
 }
+
 .footer img {
   width: 1.5rem;
   height: 1.5rem;
@@ -247,14 +285,16 @@
 }
 
 
+
 /* responsive */
 @media (max-width: 500px) {
-  .social a{
+  .social a {
     width: 1px;
   }
+
   .projects .content {
-    background: rgba(255,255,255,.05);
-    box-shadow: 0 0 10px rgba(0,0,0,0.25);
+    background: rgba(255, 255, 255, .05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
     backdrop-filter: blur(10px);
     padding: 2vh;
     border-radius: 10px;
@@ -262,6 +302,7 @@
     color: white;
     line-height: 3vh;
   }
+
   #projects {
     height: auto
   }
@@ -271,9 +312,11 @@
 ::-webkit-scrollbar {
   width: 5px
 }
+
 ::-webkit-scrollbar-track {
   background: transparent;
 }
+
 ::-webkit-scrollbar-thumb {
   background: #3b5fe2;
   border-radius: 10px;
@@ -285,10 +328,14 @@
     transform: translateY(-10px);
   }
 }
+
 @keyframes atasbawah {
-  0%, 100% {
+
+  0%,
+  100% {
     bottom: 0;
   }
+
   50% {
     bottom: 20px;
   }

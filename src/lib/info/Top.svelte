@@ -8,6 +8,7 @@
       faYoutube,
    } from "@fortawesome/free-brands-svg-icons";
    import "@fortawesome/fontawesome-free/css/all.min.css";
+   import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 </script>
 
 <div class="top">
@@ -51,6 +52,14 @@
          aria-label="krepowo youtube"
       >
          <Fa icon={faYoutube} size="2x" />
+      </a>
+      <a
+         href="mailto:krepowo@gmail.com"
+         class="email"
+         target="_blank"
+         aria-label="krepowo email"
+      >
+         <Fa icon={faEnvelope} size="2x" />
       </a>
    </div>
    <div class="nav">
