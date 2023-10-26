@@ -233,6 +233,20 @@
   animation: move-up6 2s ease-in infinite alternate-reverse;
 }
 
+.projects .circle-owo_freeroam {
+  width: 50px;
+  height: 50px;
+  background: white;
+  border-radius: 50%;
+  margin-top: -2rem;
+  justify-items: center;
+  position: relative;
+  margin-left: auto;
+  top: 2.5rem;
+  left: 1rem;
+  animation: move-up6 2s ease-in infinite alternate-reverse;
+}
+
 .projects .zkr-icon {
   display: flex;
   height: 4rem;
