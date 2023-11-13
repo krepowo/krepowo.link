@@ -24,7 +24,7 @@
             button: [
                 {
                     text: "Invite Bot",
-                    url: "https://astatine.pw/bot",
+                    url: "https://discord.com/api/oauth2/authorize?client_id=865838415517188106&permissions=274878228544&scope=bot%20applications.commands",
                 },
             ],
             image: "./astatine-logo.webp",
@@ -52,7 +52,7 @@
                 },
             ],
             image: "./owofr.webp",
-            description: `A GTA San Andreas Multiplayer server. OwO Freeroam is a freeroam server, which mean you can do anything you want in this server. Yes, anything.`
+            description: `A GTA San Andreas Multiplayer server. OwO Freeroam is a freeroam server, which mean you can do anything you want in this server. Yes, anything.`,
         },
     ];
 </script>
