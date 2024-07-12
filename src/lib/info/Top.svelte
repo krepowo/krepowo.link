@@ -7,7 +7,6 @@
       faDiscord,
       faYoutube,
    } from "@fortawesome/free-brands-svg-icons";
-   import "@fortawesome/fontawesome-free/css/all.min.css";
    import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 </script>
 

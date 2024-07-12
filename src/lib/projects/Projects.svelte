@@ -8,15 +8,15 @@
             button: [
                 {
                     text: "Visit",
-                    url: "https://zkr.pw",
+                    url: "https://zkr-front.vercel.app/",
                 },
                 {
                     text: "Invite Bot",
-                    url: "https://zkr.pw/bot",
+                    url: "https://zkr-front.vercel.app/",
                 },
             ],
             image: "./webicon.webp",
-            description: `ShortZKR is a simple URL shortener. Created by me and ZKR team. It is also support custom alias and have an official Discord Bot. Go try it >:D`,
+            description: `ShortZKR is a simple URL shortener. Created by me and ZKR team. It is also support custom alias and have an official Discord Bot. Go try it >:D. Our old domain is 'zkr.pw' but it's expired.`,
         },
         {
             name: "Astatine",
@@ -36,24 +36,36 @@
             button: [
                 {
                     text: "Visit",
-                    url: "https://textbin.link",
+                    url: "https://textbin.vercel.app/",
                 },
             ],
             image: "./textbin.webp",
             description: `Text paste service like PasteBin but with many language syntax support and VSCode like text editor. Created using Next.js and tailwindcss`,
         },
         {
-            name: "OwO Freeroam",
-            link: "samp://gta.krepowo.link:25611",
+            name: "Network Utils",
+            link: "https://discord.com/oauth2/authorize?client_id=936446020441755708&permissions=296960&integration_type=0&scope=applications.commands+bot",
             button: [
                 {
-                    text: "Play",
-                    url: "samp://gta.krepowo.link:25611",
+                    text: "Invite Bot",
+                    url: "https://discord.com/oauth2/authorize?client_id=936446020441755708&permissions=296960&integration_type=0&scope=applications.commands+bot",
+                }
+            ],
+            image: "./network-utils.webp",
+            description: "Network Utils is a Discord bot that allows you to get information about internet stuff, for like DNS lookup, domain WHOIS, and more. Created using Discord.js Library"
+        },
+        {
+            name: "osu2Discord",
+            link: "https://github.com/krepowo/osu2discord",
+            button: [
+                {
+                    text: "Github",
+                    url: "https://github.com/krepowo/osu2discord",
                 },
             ],
-            image: "./owofr.webp",
-            description: `A GTA San Andreas Multiplayer server. OwO Freeroam is a freeroam server, which mean you can do anything you want in this server. Yes, anything.`,
-        },
+            image: "./osu.webp",
+            description: "Send osu! in-game chat to a Discord channel using webhook."
+        }
     ];
 </script>
 
